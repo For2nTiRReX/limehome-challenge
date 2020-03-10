@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/normalize.css/normalize.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/siema/dist/siema.min.js"
+            ]
           },
           "configurations": {
             "production": {
