@@ -1,0 +1,47 @@
+.rent-objects-wrapper {
+  position: relative;
+  margin: 55vh 0 50px 0;
+  z-index: 20;
+  .rent-object {
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0 10px;
+    padding: 15px;
+    .rent-title {
+      font-weight: 700;
+      font-size: 1rem;
+      margin: 0 0 10px 0;
+    }
+    .rent-distance {
+      font-size: 0.9rem;
+      color: #6d6d6d;
+      margin-bottom: 30px;
+    }
+    .rent-price {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .rent-description {
+      font-size: 0.9rem;
+      color: #6d6d6d;
+    }
+    img {
+      float: left;
+      display: block;
+      max-width: 35%;
+      padding: 0 15px 0 0;  
+    }
+  }
+  .button-wrapper {
+    clear: both;
+    padding-top: 15px;
+  }
+  .button-default {
+    color: #fff;
+    background-color: #f7941d;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+  }
+}

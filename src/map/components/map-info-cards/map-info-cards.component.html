@@ -1,0 +1,28 @@
+
+<div class="rent-objects-wrapper">
+  <div class="siema">
+    <div 
+      *ngFor="let rentObject of rentObjects"
+      [ngClass]="{
+        'rent-object': true
+      }"
+    >
+      <img src="{{rentObject.img}}" alt="">
+      <h2 class="rent-title">
+        {{rentObject.title}}
+      </h2>
+      <div class="rent-distance">
+        {{rentObject.distance / 100}} km from your searching place
+      </div>
+      <div class="rent-price">
+        {{rentObject.price | currency:'GBP' }}
+      </div>
+      <span class="rent-description">
+        {{rentObject.description}}
+      </span>
+      <div class="button-wrapper">
+        <button class="button-default" (click)="triggerBookRentObject(rentObject.id)">Book</button>
+      </div>
+    </div>
+  </div>
+</div>

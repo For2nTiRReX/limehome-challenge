@@ -1,0 +1,9 @@
+<app-map 
+  (changeSlideActive)="changeSlideActive($event)"
+  [rentObjects]="rentObjects">
+</app-map>
+<app-map-info-cards 
+  (triggerBookRent)="triggerBookRentObject($event)"
+  [rentObjectActive]="rentObjectActive"
+  [rentObjects]="rentObjects">
+</app-map-info-cards>

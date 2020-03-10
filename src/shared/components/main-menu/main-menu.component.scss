@@ -1,0 +1,17 @@
+.top-line-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #ebeae6;
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .menu-trigger-button {
+        padding: 3px 0;
+    }
+    .main-menu {
+        display: none;
+    }
+}

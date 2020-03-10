@@ -1,12 +1,1 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Sen:400,700,800');
-$ff-sans: 'Sen', sans-serif;
-$c-main: #080604;
-* {
-    box-sizing: border-box;
-}
-body {
-    font-family: $ff-sans;
-    font-weight: normal;
-    color: $c-main;
-}
